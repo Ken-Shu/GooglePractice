@@ -1,0 +1,3 @@
+include ':app_tiptime'
+include ':app_dices'
+rootProject.name = "My Application"
