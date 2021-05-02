@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <!--importantForAccessibility 可訪問性(在此為裝飾用 設定NO) -->
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:importantForAccessibility="no"
+            android:scaleType="centerCrop" />
+        <!--在中TextView，將textAppearance屬性設置為?
+        attr/textAppearanceHeadline6。
+        (textApperanceHeadline6)=默認為20sp中號文字
+        textAppearance是允許您定義特定於文本的樣式的屬性。 -->
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Region"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app_dices" />
             <option value="$PROJECT_DIR$/app_tiptime" />
+            <option value="$PROJECT_DIR$/app_u2_recyclerview" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

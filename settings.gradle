@@ -1,3 +1,4 @@
+include ':app_u2_recyclerview'
 include ':app_tiptime'
 include ':app_dices'
 rootProject.name = "My Application"
